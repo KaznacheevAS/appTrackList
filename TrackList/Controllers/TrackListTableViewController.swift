@@ -9,7 +9,7 @@ import UIKit
 
 class TrackListTableViewController: UITableViewController {
 
-    var track = DataManager.shared
+    var track = Person.getContent()
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -31,6 +31,6 @@ class TrackListTableViewController: UITableViewController {
         guard let viewVC = segue.destination as? ViewController else { return }
         guard let trackIndexVC = tableView.indexPathForSelectedRow else { return }
         let indexTrack = track[trackIndexVC.row]
-        viewVC.phoneLabel = "dd"
+        viewVC.phoneLabel = [indexTrack]
     }
 }

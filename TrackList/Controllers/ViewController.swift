@@ -12,7 +12,7 @@ class ViewController: UIViewController{
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var phoneLabel: UILabel!
     
-    var track = DataManager.shared
+    var track = Person.getContent()
     
     override func viewDidLoad() {
         super.viewDidLoad()

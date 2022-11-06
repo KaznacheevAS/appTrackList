@@ -133,7 +133,7 @@
         <!--Person List-->
         <scene sceneID="mcS-Jb-rQq">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cpi-l5-pHl" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cpi-l5-pHl" customClass="TabBarViewController" customModule="TrackList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Person List" id="gph-Hf-f8q"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="j7g-A8-xik">

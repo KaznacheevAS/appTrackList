@@ -17,6 +17,7 @@
 		AB10E47C29130AC000DB0306 /* CellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10E47B29130AC000DB0306 /* CellTableViewController.swift */; };
 		AB10E47E29130AF000DB0306 /* DataManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10E47D29130AF000DB0306 /* DataManagers.swift */; };
 		ABAA071A2915B4FC006EB6BB /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAA07192915B4FC006EB6BB /* Persons.swift */; };
+		ABDE414A29184B6600961B10 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDE414929184B6600961B10 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AB10E47B29130AC000DB0306 /* CellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewController.swift; sourceTree = "<group>"; };
 		AB10E47D29130AF000DB0306 /* DataManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagers.swift; sourceTree = "<group>"; };
 		ABAA07192915B4FC006EB6BB /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		ABDE414929184B6600961B10 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				AB10E4692912E7D000DB0306 /* ViewController.swift */,
 				AB10E47929130A8F00DB0306 /* TrackListTableViewController.swift */,
 				AB10E47B29130AC000DB0306 /* CellTableViewController.swift */,
+				ABDE414929184B6600961B10 /* TabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDE414A29184B6600961B10 /* TabBarViewController.swift in Sources */,
 				AB10E46A2912E7D000DB0306 /* ViewController.swift in Sources */,
 				ABAA071A2915B4FC006EB6BB /* Persons.swift in Sources */,
 				AB10E47A29130A8F00DB0306 /* TrackListTableViewController.swift in Sources */,

@@ -1,16 +1,14 @@
 //
-//  CellTableViewController.swift
+//  TabBarTableViewController.swift
 //  TrackList
 //
-//  Created by Anton Kaznacheev on 02.11.2022.
+//  Created by Anton Kaznacheev on 06.11.2022.
 //
 
 import UIKit
 
-class CellTableViewController: UITableViewController {
+class TabBarTableViewController: UITableViewController {
 
-    var track: [Person] = []
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

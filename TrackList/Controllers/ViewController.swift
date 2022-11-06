@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController{
 
-    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var phoneLabel: UILabel!
     
     var track: Person!
@@ -18,9 +17,6 @@ class ViewController: UIViewController{
         super.viewDidLoad()
         title = track?.descriptor
         phoneLabel.text = "Phone: \(track.phone)"
-        
     }
-
-
 }
 

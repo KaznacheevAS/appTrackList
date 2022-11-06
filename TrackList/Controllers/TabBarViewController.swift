@@ -16,7 +16,6 @@ class TabBarViewController: UITabBarController {
         setTabBarViewController(wiew: persons)
     }
     
-
     // MARK: - Navigation
     private func setTabBarViewController(wiew person: [Person]){
         guard let trackListVC = viewControllers?.first as? TrackListTableViewController else {return}

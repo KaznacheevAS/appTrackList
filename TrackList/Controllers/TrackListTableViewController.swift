@@ -9,16 +9,16 @@ import UIKit
 
 class TrackListTableViewController: UITableViewController {
 
-    var track = Person.getContent()
+    var tracks: [Person] = []
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        track.count
+        tracks.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CellTrack", for: indexPath)
-        let trackIndex = track[indexPath.row]
+        let trackIndex = tracks[indexPath.row]
         
         var content = cell.defaultContentConfiguration()
         content.text = trackIndex.descriptor
@@ -30,7 +30,7 @@ class TrackListTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let viewVC = segue.destination as? ViewController else { return }
         guard let trackIndexVC = tableView.indexPathForSelectedRow else { return }
-        let indexTrack = track[trackIndexVC.row]
-        viewVC.phoneLabel = [indexTrack]
+        let indexTrack = tracks[trackIndexVC.row]
+        viewVC.track = indexTrack
     }
 }

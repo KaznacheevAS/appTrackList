@@ -79,16 +79,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="69" translatesAutoresizingMaskIntoConstraints="NO" id="qmI-lA-3OZ">
-                                <rect key="frame" x="25" y="180" width="343" height="109.66666666666669"/>
+                                <rect key="frame" x="25" y="180" width="343" height="20.333333333333343"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axn-QI-aaM">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.333333333333332"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPc-bt-OQi">
-                                        <rect key="frame" x="0.0" y="89.333333333333314" width="343" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.333333333333329"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -106,7 +100,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="rLn-qk-Sc4"/>
                     <connections>
-                        <outlet property="nameLabel" destination="axn-QI-aaM" id="dHa-bw-qLO"/>
                         <outlet property="phoneLabel" destination="SPc-bt-OQi" id="lJI-cN-sMb"/>
                     </connections>
                 </viewController>

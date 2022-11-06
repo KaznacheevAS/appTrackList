@@ -21,7 +21,7 @@ class TabBarViewController: UITabBarController {
     private func setTabBarViewController(wiew person: [Person]){
         guard let trackListVC = viewControllers?.first as? TrackListTableViewController else {return}
         guard let cellTableVC = viewControllers?.last as? CellTableViewController else {return}
-        trackListVC.track = persons
+        trackListVC.tracks = persons
         cellTableVC.track = persons
     }
 }

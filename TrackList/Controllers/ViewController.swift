@@ -12,12 +12,12 @@ class ViewController: UIViewController{
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var phoneLabel: UILabel!
     
-    var track = Person.getContent()
+    var track: Person!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        phoneLabel.text = ""
+        title = track?.descriptor
+        phoneLabel.text = "Phone: \(track.phone)"
         
     }
 

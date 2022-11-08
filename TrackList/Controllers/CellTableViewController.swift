@@ -11,11 +11,6 @@ class CellTableViewController: UITableViewController {
 
     var track: [Person] = []
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
-
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         track.count
@@ -28,7 +23,6 @@ class CellTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        2
     }
-
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
